@@ -79,11 +79,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
 
 
-client.on('message', message => {
-    if (message.content === "تحويل" + "<@" + `${client.user.id}` + ">") {
-        message.channel.send('#credit <@504016941179076610>')
-    }
-});
+
 
 
 
@@ -336,6 +332,7 @@ setInterval(function(){
 
             client.destroy();
 
+client.login(process.env.BOT_TOKEN);
 
         },3000);
 
