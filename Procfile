@@ -1,1 +1,1 @@
-worker: node wne2.js
+worker: node wner2.js
